@@ -1,0 +1,28 @@
+.member {
+    max-width: 373px;
+    padding: 0 0 24px;
+    background: var(--Schemes-Surface, #fef7ff);
+    position: relative;
+  }
+  
+  .content {
+    display: flex;
+    min-height: 676px;
+    width: 100%;
+  }
+  
+  .verticalDivider {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: var(--Schemes-Outline-Variant, #cac4d0);
+    left: 0;
+    top: 0;
+  }
+  
+  .divider {
+    height: 100%;
+    width: 100%;
+    background: rgba(202, 196, 208, 1);
+  }
+  

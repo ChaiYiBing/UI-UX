@@ -1,0 +1,77 @@
+.notification-page {
+    max-width: 373px;
+    padding-bottom: 44px;
+  }
+  
+  .top-app-bar {
+    background: var(--Schemes-Surface, #fef7ff);
+    min-height: 64px;
+  }
+  
+  .headline {
+    color: var(--M3-sys-light-on-surface, var(--Schemes-On-Surface, #1d1b20));
+    font: 400 22px/28px Roboto, sans-serif;
+  }
+  
+  .icon-button {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .notification-toggle {
+    border-radius: 4px 4px 0 0;
+    max-width: 351px;
+    color: var(--M3-sys-dark-high-contrast-tertiary-fixed-dim, #ffb7cd);
+    font: 400 16px/24px Roboto, sans-serif;
+  }
+  
+  .toggle-container {
+    background: var(--M3-ref-neutral-neutral24, #3b383e);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  }
+  
+  .active-indicator {
+    background-color: #ffb7cd;
+    height: 1px;
+    width: 100%;
+    border: 1px solid rgba(255, 183, 205, 1);
+  }
+  
+  .toggle-image {
+    width: 37px;
+    align-self: flex-end;
+    margin: -42px 29px 0 0;
+  }
+  
+  .notification-content {
+    background: var(--Schemes-Surface, #fef7ff);
+    min-height: 700px;
+  }
+  
+  .vertical-divider {
+    min-height: 701px;
+    width: 1px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .divider {
+    background: var(--Schemes-Outline-Variant, #cac4d0);
+    min-height: 700px;
+    width: 100%;
+    border: 1px solid rgba(202, 196, 208, 1);
+  }
+  
+  .content-image {
+    width: 48px;
+    align-self: center;
+    margin-top: -92px;
+  }

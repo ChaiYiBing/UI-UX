@@ -1,0 +1,13 @@
+.profile-page {
+    background-color: #FAF3FF; /* Light purple background */
+    color: #000; /* Black text */
+  }
+  
+  .profile-image {
+    border: 2px solid #ddd;
+  }
+  
+  button img {
+    width: 40px;
+  }
+  

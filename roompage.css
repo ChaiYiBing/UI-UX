@@ -1,0 +1,61 @@
+/* roompage.css */
+.container-fluid {
+    padding: 0;
+}
+
+.room-page {
+    background-color: #f8f9fa; /* Light background color */
+    height: 100vh; /* Full height */
+}
+
+header {
+    background-color: #007bff; /* Header background color */
+    color: white;
+}
+
+.room-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Set width of room containers */
+    padding: 10px;
+    border: 1px solid #ccc; /* Border for room container */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between rooms */
+    background-color: white; /* White background for room items */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.room-label {
+    font-size: 18px;
+}
+
+.toggle {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.toggle.active {
+    color: #28a745; /* Color for active state */
+}
+
+.toggle.inactive {
+    color: #6c757d; /* Color for inactive state */
+}
+
+.footer {
+    margin-top: auto; /* Push footer to the bottom */
+    padding: 20px 0;
+}
+
+/* Optional hover effect */
+.room:hover {
+    background-color: #e9ecef; /* Light grey background on hover */
+}

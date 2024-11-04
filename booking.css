@@ -1,0 +1,25 @@
+/* roomDetailPage.css */
+.container-fluid {
+    background-color: #E7E7E7; /* Set background color to Neutral 24 */
+    height: 100vh; /* Make it fill the full height of the viewport */
+    padding: 20px; /* Add padding for content spacing */
+}
+
+.header {
+    background-color: #f8f9fa; /* Light background for header */
+}
+
+.content-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.price-container {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
